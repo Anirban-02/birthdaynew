@@ -1,0 +1,71 @@
+#div1
+{
+    margin-top: -3%;
+    margin-left: -10px;
+	width: 103%;
+	height: 50px;
+    background-color: black;
+}
+#one
+{
+    margin-top: -4px ;
+    margin-left: 35%;
+	color: lightcoral;
+    font-family:Impact;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+	font-size: 50px;
+    transition: 4s linear;
+}
+#one:hover
+{
+    color: blueviolet;
+}
+#two
+{
+    margin-top: 0%;
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+    color : skyblue;
+    position: fixed;
+    animation-name: anime1;
+    animation-direction: ;
+    animation-duration: 11s;
+    animation-delay: 3s;
+    animation-iteration-count: 10000;
+}
+
+@keyframes anime1
+{
+	0% {left: 0px }
+	50%{ left: 75% }
+	100%{left: 0px;}
+}
+#div2
+{
+    margin-left: -10px;
+    width: 100%;
+    height: 40px;
+    background-color: darkturquoise;
+    word-spacing: 22px;
+    padding-left: 72%;
+}
+a
+{
+    
+    color: white;
+	font-size: 30px;
+    transition: all 2s linear;
+    
+}
+
+a:hover 
+{
+    color:black;
+}
+#div3
+{
+    
+     background-color: burlywood ;
+}
